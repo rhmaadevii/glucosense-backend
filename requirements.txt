@@ -4,3 +4,5 @@ gunicorn==22.0.0
 tensorflow==2.16.1
 numpy
 joblib
+firebase-admin
+firebase-admin==6.5.0
