@@ -19,8 +19,8 @@ CORS(app)
 import os
 import json
 
-import firebase_admin
-from firebase_admin import credentials, firestore
+print("FIREBASE_KEY exists:", "FIREBASE_KEY" in os.environ)
+print("Environment keys:", list(os.environ.keys()))
 
 firebase_key = json.loads(os.environ["FIREBASE_KEY"])
 
